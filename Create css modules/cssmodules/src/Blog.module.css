@@ -1,0 +1,23 @@
+.blog {
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px #ccc;
+  text-align: center;
+  background-color: aqua;
+}
+.heading {
+  color: aqua;
+}
+@media (min-width: 992px) {
+  .blog {
+    width: 45%;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+  .blog {
+    width: 100%;
+    display: inline-block;
+  }
+}
